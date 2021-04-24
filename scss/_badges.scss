@@ -1,0 +1,48 @@
+@import './themes'
+;
+.badge{
+    display: flex;
+    height: 26px;
+    padding: 5px 18px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-right: 12px;
+    font-weight: $bold;
+    letter-spacing: .8px;
+
+    &-primary{
+        @extend .badge;
+        @include themify($themes){
+            color: themed('primaryColor');
+            background: lighten($color: themed('primaryColor'), $amount: 38%);
+        }
+    }
+    &-secundary{
+        @extend .badge;
+        @include themify($themes){
+            color: themed('secundaryColor');
+            background: lighten($color: themed('secundaryColor'), $amount: 38%);
+        }
+    }
+    &-accent1{
+        @extend .badge;
+        @include themify($themes){
+            color: themed('accentColor1');
+            background: lighten($color: themed('accentColor1'), $amount: 38%);
+        }
+    }
+    &-accent2{
+        @extend .badge;
+        @include themify($themes){
+            color: themed('accentColor2');
+            background: lighten($color: themed('accentColor2'), $amount: 38%);
+        }
+    }
+    &-accent3{
+        @extend .badge;
+        @include themify($themes){
+            color: themed('accentColor3');
+            background: lighten($color: themed('accentColor3'), $amount: 38%);
+        }
+    }
+}
