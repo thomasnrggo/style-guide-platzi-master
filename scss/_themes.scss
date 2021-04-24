@@ -1,4 +1,5 @@
 @import './colors';
+@import './typography';
 
 $themes: (
     light: (
@@ -9,6 +10,8 @@ $themes: (
         accentColor1: $accent1,
         accentColor2: $accent2,
         accentColor3: $accent3,
+        textWeight: $light,
+        fontFamily: $font-family,
     ),
     dark: (
         background: $background-dark,
@@ -18,6 +21,8 @@ $themes: (
         accentColor1: $accent1,
         accentColor2: $accent2,
         accentColor3: $accent3,
+        textWeight: $mediun,
+        fontFamily: $font-family,
     ),
 );
 

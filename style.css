@@ -1,25 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 *, body {
   margin: 0;
   padding: 0;
 }
-
-.light-theme #app-root {
+.light-theme *, .light-theme body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   color: #2c2c2c;
   background-color: #F9F9F9;
 }
-.dark-theme #app-root {
+.dark-theme *, .dark-theme body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   color: #F9F9F9;
   background-color: #2c2c2c;
 }
 
-.light-theme .app {
-  color: #2c2c2c;
-  background-color: #F9F9F9;
-}
-.dark-theme .app {
-  color: #F9F9F9;
-  background-color: #2c2c2c;
-}
 .app .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -46,10 +42,41 @@
 .app .grid .swicthers .btn:hover, .app .grid .swicthers .btn-toggle:hover {
   background: red;
 }
+.app .grid .section, .app .grid .alerts, .app .grid .loaders, .app .grid .tooltips, .app .grid .badges, .app .grid .inputs, .app .grid .links, .app .grid .buttons, .app .grid .typography, .app .grid .colors {
+  position: relative;
+  padding-top: 24px;
+}
+.app .grid .section--title {
+  position: absolute;
+  left: 12px;
+  top: -24px;
+  padding: 8px 12px;
+}
+.light-theme .app .grid .section--title {
+  color: #2c2c2c;
+  background-color: #F9F9F9;
+}
+.dark-theme .app .grid .section--title {
+  color: #F9F9F9;
+  background-color: #2c2c2c;
+}
 .app .grid .colors {
   border: 1px solid lightyellow;
   grid-column: 1/5;
   grid-row: 3/20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.app .grid .colors .color--group {
+  display: block;
+  min-height: 50px;
+  background: lightgoldenrodyellow;
+}
+.app .grid .colors .color--group .color-base {
+  background: purple;
+  height: 25px;
+  width: 100%;
 }
 .app .grid .typography {
   border: 1px solid red;
