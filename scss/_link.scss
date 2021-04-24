@@ -1,0 +1,66 @@
+@import './themes';
+@import './typography';
+
+.link{
+    font-weight: $medium;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+    transition: .4s ease;
+    &:hover{
+        text-decoration-style:solid;
+    }
+    
+    &:after{
+        transition: 300ms;
+    }
+
+    @include themify($themes){
+        color: themed('gray4')
+    }
+    &:hover{
+        @include themify($themes){
+            color: themed('gray6')
+        }
+    }
+
+    &.hovered{
+        text-decoration-style:solid !important;
+    }
+
+    &-primary{
+        @extend .link;
+        @include themify($themes){
+            color: themed('primaryColor')
+        }
+        &:hover{
+            @include themify($themes){
+                color: darken($color: themed('primaryColor'), $amount: 20%)
+            }
+        }
+
+        &.hovered{
+            @include themify($themes){
+                color: darken($color: themed('primaryColor'), $amount: 20%)
+            }
+        }
+    }
+
+    &-secundary{
+        @extend .link;
+        @include themify($themes){
+            color: themed('secundaryColor')
+        }
+        &:hover{
+            @include themify($themes){
+                color: darken($color: themed('secundaryColor'), $amount: 20%)
+            }
+        }
+
+        &.hovered{
+            @include themify($themes){
+                color: darken($color: themed('secundaryColor'), $amount: 20%)
+            }
+        }
+    }
+}
