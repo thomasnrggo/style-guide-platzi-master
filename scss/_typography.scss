@@ -4,3 +4,53 @@ $font-family: 'Poppins', sans-serif;
 $bold: 700;
 $medium: 500;
 $light: 300;
+
+.bold {
+    font-weight: $bold !important;
+}
+
+.medium{
+    font-weight: $medium !important;
+}
+
+.light {
+    font-weight: $light !important;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.title {
+    font-weight: $bold;
+    &-h1{
+        @extend .title;
+        font-size: 3em;
+    }
+    &-h2{
+        @extend .title;
+        font-size: 2.8em;
+    }
+    &-h3{
+        @extend .title;
+        font-size: 2.4em;
+    }
+    &-h4{
+        @extend .title;
+        font-size: 2.2em;
+    }
+    &-h5{
+        font-weight: $medium;
+        font-size: 1.8em;
+    }
+    &-h6{
+        text-transform: uppercase;
+        font-weight: $medium;
+        font-size: 1.4em;
+    }
+}
+
+.text{
+    font-size: 1em;
+    margin-bottom: 12px;
+}

@@ -1,25 +1,22 @@
 @import './themes.scss';
+@import './typography';
 @import './colors';
 
 *, body{
   margin: 0;
   padding: 0;
 
-  // font-family: $font-family;
-
   @include themify($themes) { 
     font-family: themed('fontFamily');
-    font-weight: themed('textWeight');
     color: themed('textColor');  
     background-color: themed('background');  
   }
 }
 
 .app {
-  // @include themify($themes) {
-  //   color: themed('textColor');  
-  //   background-color: themed('background');  
-  // }
+  @include themify($themes) { 
+    font-weight: themed('textWeight');
+  }
 
   .grid{
     display: grid;
@@ -46,10 +43,21 @@
       padding: 8px 12px;
       text-transform: uppercase;
       font-weight: $bold;
+      font-size: 1.1em;
       
       @include themify($themes) {
-        color: themed('textColor');  
+        color: themed('sectionColor');  
         background-color: themed('background');
+      }
+    }
+
+    .section--subtitle{
+      text-transform: uppercase;
+      font-size: 1.1em;
+      font-weight: $medium;
+      margin-bottom: 24px;
+      @include themify($themes) {
+        color: themed('gray5');
       }
     }
 
@@ -128,6 +136,32 @@
       @extend .section;
       grid-column: 5 / 13;
       grid-row: 3 / 13;
+
+      .typography--variants{
+        display: flex;
+        justify-content: space-between;
+
+        .weight{
+          padding: 24px;
+
+          .weight--example {
+            margin: 0;
+            font-size: 3.5em
+          }
+          .weight--name{
+            margin: 0;
+            font-size: 1.2em
+          }
+        }
+      }
+
+      .typographyUses{
+        display: flex;
+        .headlines, .texts{
+          width: 50%;
+          padding: 24px ;
+        }
+      }
     }
 
     .buttons {
