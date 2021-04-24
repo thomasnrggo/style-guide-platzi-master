@@ -1,0 +1,52 @@
+@import './themes';
+
+.alert{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 12px;
+    font-weight: $medium;
+    border-radius: 6px;
+    margin-bottom: 12px;
+
+
+    &-primary{
+        @extend .alert;
+        @include themify($themes){
+            color: themed('primaryColor');
+            background: lighten($color: themed('primaryColor'), $amount: 38%);
+        }
+    }
+    &-secundary{
+        @extend .alert;
+        @include themify($themes){
+            color: themed('secundaryColor');
+            background: lighten($color: themed('secundaryColor'), $amount: 38%);
+        }
+    }
+    &-accent1{
+        @extend .alert;
+        @include themify($themes){
+            color: themed('accentColor1');
+            background: lighten($color: themed('accentColor1'), $amount: 38%);
+        }
+    }
+    &-accent2{
+        @extend .alert;
+        @include themify($themes){
+            color: themed('accentColor2');
+            background: lighten($color: themed('accentColor2'), $amount: 38%);
+        }
+    }
+    &-accent3{
+        @extend .alert;
+        @include themify($themes){
+            color: themed('accentColor3');
+            background: lighten($color: themed('accentColor3'), $amount: 38%);
+        }
+    }
+
+    .alert--action{
+        font-weight: $bold;
+    }
+}

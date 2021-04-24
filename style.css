@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 .bold {
   font-weight: 700 !important;
 }
@@ -1443,6 +1444,105 @@
 .dark-theme .badge-accent3 {
   color: #FE2725;
   background: #ffe6e6;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title, .title-h1, .title-h2, .title-h3, .title-h4 {
+  font-weight: 700;
+}
+.title-h1 {
+  font-size: 3em;
+}
+.title-h2 {
+  font-size: 2.8em;
+}
+.title-h3 {
+  font-size: 2.4em;
+}
+.title-h4 {
+  font-size: 2.2em;
+}
+.title-h5 {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+.title-h6 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.text {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.alert, .alert-accent3, .alert-accent2, .alert-accent1, .alert-secundary, .alert-primary {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+.light-theme .alert-primary {
+  color: #0FACFB;
+  background: #ceeefe;
+}
+.dark-theme .alert-primary {
+  color: orange;
+  background: #ffe9c2;
+}
+.light-theme .alert-secundary {
+  color: #6E37BE;
+  background: #d8c8ef;
+}
+.dark-theme .alert-secundary {
+  color: #0FACFB;
+  background: #ceeefe;
+}
+.light-theme .alert-accent1 {
+  color: #129988;
+  background: #7df0e1;
+}
+.dark-theme .alert-accent1 {
+  color: #129988;
+  background: #7df0e1;
+}
+.light-theme .alert-accent2 {
+  color: #78C52E;
+  background: #daf1c4;
+}
+.dark-theme .alert-accent2 {
+  color: #78C52E;
+  background: #daf1c4;
+}
+.light-theme .alert-accent3 {
+  color: #FE2725;
+  background: #ffe6e6;
+}
+.dark-theme .alert-accent3 {
+  color: #FE2725;
+  background: #ffe6e6;
+}
+.alert .alert--action, .alert-primary .alert--action, .alert-secundary .alert--action, .alert-accent1 .alert--action, .alert-accent2 .alert--action, .alert-accent3 .alert--action {
+  font-weight: 700;
 }
 
 *, body {
