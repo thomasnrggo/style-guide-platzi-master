@@ -22,6 +22,10 @@ $themes: (
         gray6: #656A6D,
         gray7: #4C5052,
         gray8: #212122,
+        inputBackground: $white,
+        inputBorderColor: #B9BDBF,
+        success: $accent2,
+        error: $accent3,
     ),
     dark: (
         background: $background-dark,
@@ -43,6 +47,10 @@ $themes: (
         gray6: #656A6D,
         gray7: #4C5052,
         gray8: #212122,
+        inputBackground: $black,
+        inputBorderColor: #4C5052,
+        success: $accent2,
+        error: $accent3,
     ),
 );
 

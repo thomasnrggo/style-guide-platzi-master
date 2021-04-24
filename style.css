@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 .bold {
   font-weight: 700 !important;
 }
@@ -737,6 +739,421 @@
   color: #036ca1;
 }
 
+.bold {
+  font-weight: 700 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title, .title-h1, .title-h2, .title-h3, .title-h4 {
+  font-weight: 700;
+}
+.title-h1 {
+  font-size: 3em;
+}
+.title-h2 {
+  font-size: 2.8em;
+}
+.title-h3 {
+  font-size: 2.4em;
+}
+.title-h4 {
+  font-size: 2.2em;
+}
+.title-h5 {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+.title-h6 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.text {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title, .title-h1, .title-h2, .title-h3, .title-h4 {
+  font-weight: 700;
+}
+.title-h1 {
+  font-size: 3em;
+}
+.title-h2 {
+  font-size: 2.8em;
+}
+.title-h3 {
+  font-size: 2.4em;
+}
+.title-h4 {
+  font-size: 2.2em;
+}
+.title-h5 {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+.title-h6 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.text {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.light-theme .bg-gray-1 {
+  background-color: #F2F2F2;
+}
+.dark-theme .bg-gray-1 {
+  background-color: #F2F2F2;
+}
+.light-theme .bg-gray-2 {
+  background-color: #E8E9E9;
+}
+.dark-theme .bg-gray-2 {
+  background-color: #E8E9E9;
+}
+.light-theme .bg-gray-3 {
+  background-color: #D1D3D4;
+}
+.dark-theme .bg-gray-3 {
+  background-color: #D1D3D4;
+}
+.light-theme .bg-gray-4 {
+  background-color: #B9BDBF;
+}
+.dark-theme .bg-gray-4 {
+  background-color: #B9BDBF;
+}
+.light-theme .bg-gray-5 {
+  background-color: #7F8488;
+}
+.dark-theme .bg-gray-5 {
+  background-color: #7F8488;
+}
+.light-theme .bg-gray-6 {
+  background-color: #656A6D;
+}
+.dark-theme .bg-gray-6 {
+  background-color: #656A6D;
+}
+.light-theme .bg-gray-7 {
+  background-color: #4C5052;
+}
+.dark-theme .bg-gray-7 {
+  background-color: #4C5052;
+}
+.light-theme .bg-gray-8 {
+  background-color: #212122;
+}
+.dark-theme .bg-gray-8 {
+  background-color: #212122;
+}
+
+.light-theme .bg-primary {
+  background-color: #0FACFB !important;
+}
+.dark-theme .bg-primary {
+  background-color: orange !important;
+}
+.light-theme .bg-primary-lightest {
+  background: #d8f1fe !important;
+}
+.dark-theme .bg-primary-lightest {
+  background: #ffedcc !important;
+}
+.light-theme .bg-primary-lighter {
+  background: #a5e0fe !important;
+}
+.dark-theme .bg-primary-lighter {
+  background: #ffdb99 !important;
+}
+.light-theme .bg-primary-light {
+  background: #41bdfc !important;
+}
+.dark-theme .bg-primary-light {
+  background: #ffb733 !important;
+}
+.light-theme .bg-primary-dark {
+  background: #049fed !important;
+}
+.dark-theme .bg-primary-dark {
+  background: #e69500 !important;
+}
+.light-theme .bg-primary-darker {
+  background: #037dba !important;
+}
+.dark-theme .bg-primary-darker {
+  background: #b37400 !important;
+}
+
+.light-theme .bg-secundary {
+  background-color: #6E37BE !important;
+}
+.dark-theme .bg-secundary {
+  background-color: #0FACFB !important;
+}
+.light-theme .bg-secundary-lightest {
+  background: #ddd0f1 !important;
+}
+.dark-theme .bg-secundary-lightest {
+  background: #d8f1fe !important;
+}
+.light-theme .bg-secundary-lighter {
+  background: #c1a8e6 !important;
+}
+.dark-theme .bg-secundary-lighter {
+  background: #a5e0fe !important;
+}
+.light-theme .bg-secundary-light {
+  background: #8959cf !important;
+}
+.dark-theme .bg-secundary-light {
+  background: #41bdfc !important;
+}
+.light-theme .bg-secundary-dark {
+  background: #6331aa !important;
+}
+.dark-theme .bg-secundary-dark {
+  background: #049fed !important;
+}
+.light-theme .bg-secundary-darker {
+  background: #4c2683 !important;
+}
+.dark-theme .bg-secundary-darker {
+  background: #037dba !important;
+}
+
+.light-theme .bg-accent1 {
+  background-color: #129988 !important;
+}
+.dark-theme .bg-accent1 {
+  background-color: #129988 !important;
+}
+.light-theme .bg-accent1-lightest {
+  background: #86f1e3 !important;
+}
+.dark-theme .bg-accent1-lightest {
+  background: #86f1e3 !important;
+}
+.light-theme .bg-accent1-lighter {
+  background: #59ebd9 !important;
+}
+.dark-theme .bg-accent1-lighter {
+  background: #59ebd9 !important;
+}
+.light-theme .bg-accent1-light {
+  background: #17c7b1 !important;
+}
+.dark-theme .bg-accent1-light {
+  background: #17c7b1 !important;
+}
+.light-theme .bg-accent1-dark {
+  background: #0f8274 !important;
+}
+.dark-theme .bg-accent1-dark {
+  background: #0f8274 !important;
+}
+.light-theme .bg-accent1-darker {
+  background: #0a554b !important;
+}
+.dark-theme .bg-accent1-darker {
+  background: #0a554b !important;
+}
+
+.light-theme .bg-accent2 {
+  background-color: #78C52E !important;
+}
+.dark-theme .bg-accent2 {
+  background-color: #78C52E !important;
+}
+.light-theme .bg-accent2-lightest {
+  background: #dff3cc !important;
+}
+.dark-theme .bg-accent2-lightest {
+  background: #dff3cc !important;
+}
+.light-theme .bg-accent2-lighter {
+  background: #c5e9a3 !important;
+}
+.dark-theme .bg-accent2-lighter {
+  background: #c5e9a3 !important;
+}
+.light-theme .bg-accent2-light {
+  background: #92d650 !important;
+}
+.dark-theme .bg-accent2-light {
+  background: #92d650 !important;
+}
+.light-theme .bg-accent2-dark {
+  background: #6bb029 !important;
+}
+.dark-theme .bg-accent2-dark {
+  background: #6bb029 !important;
+}
+.light-theme .bg-accent2-darker {
+  background: #528720 !important;
+}
+.dark-theme .bg-accent2-darker {
+  background: #528720 !important;
+}
+
+.light-theme .bg-accent3 {
+  background-color: #FE2725 !important;
+}
+.dark-theme .bg-accent3 {
+  background-color: #FE2725 !important;
+}
+.light-theme .bg-accent3-lightest {
+  background: #fff0f0 !important;
+}
+.dark-theme .bg-accent3-lightest {
+  background: #fff0f0 !important;
+}
+.light-theme .bg-accent3-lighter {
+  background: #ffbebd !important;
+}
+.dark-theme .bg-accent3-lighter {
+  background: #ffbebd !important;
+}
+.light-theme .bg-accent3-light {
+  background: #fe5958 !important;
+}
+.dark-theme .bg-accent3-light {
+  background: #fe5958 !important;
+}
+.light-theme .bg-accent3-dark {
+  background: #fe0e0c !important;
+}
+.dark-theme .bg-accent3-dark {
+  background: #fe0e0c !important;
+}
+.light-theme .bg-accent3-darker {
+  background: #d60301 !important;
+}
+.dark-theme .bg-accent3-darker {
+  background: #d60301 !important;
+}
+
+.input--group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.input--group .input, .input--group .select {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none !important;
+}
+.light-theme .input--group .input, .light-theme .input--group .select {
+  border: 2px solid #B9BDBF;
+  background-color: #FFFFFF;
+}
+.dark-theme .input--group .input, .dark-theme .input--group .select {
+  border: 2px solid #4C5052;
+  background-color: #212122;
+}
+.light-theme .input--group .input::placeholder, .light-theme .input--group .select::placeholder {
+  color: #7F8488;
+}
+.dark-theme .input--group .input::placeholder, .dark-theme .input--group .select::placeholder {
+  color: #7F8488;
+}
+.light-theme .input--group .input:focus, .light-theme .input--group .select:focus {
+  border: 2px solid #0FACFB;
+}
+.dark-theme .input--group .input:focus, .dark-theme .input--group .select:focus {
+  border: 2px solid orange;
+}
+.light-theme .input--group .input:focus-visible, .light-theme .input--group .select:focus-visible {
+  border: 2px solid #0FACFB;
+}
+.dark-theme .input--group .input:focus-visible, .dark-theme .input--group .select:focus-visible {
+  border: 2px solid orange;
+}
+.light-theme .input--group .input.success, .light-theme .input--group .success.select {
+  border-color: #78C52E !important;
+}
+.dark-theme .input--group .input.success, .dark-theme .input--group .success.select {
+  border-color: #78C52E !important;
+}
+.light-theme .input--group .input.error, .light-theme .input--group .error.select {
+  border-color: #FE2725 !important;
+}
+.dark-theme .input--group .input.error, .dark-theme .input--group .error.select {
+  border-color: #FE2725 !important;
+}
+.light-theme .input--group .input.active, .light-theme .input--group .active.select {
+  border-color: #0FACFB !important;
+}
+.dark-theme .input--group .input.active, .dark-theme .input--group .active.select {
+  border-color: orange !important;
+}
+.light-theme .input--group .input.disabled, .light-theme .input--group .disabled.select {
+  background-color: #F2F2F2 !important;
+}
+.dark-theme .input--group .input.disabled, .dark-theme .input--group .disabled.select {
+  background-color: #F2F2F2 !important;
+}
+.input--group .input--label {
+  font-size: 1.05em;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.input--group .input--message {
+  font-size: 1em;
+  margin-top: 4px;
+}
+.light-theme .input--group .input--message {
+  font-weight: 300;
+}
+.dark-theme .input--group .input--message {
+  font-weight: 500;
+}
+.light-theme .input--group .input--message.success {
+  color: #78C52E !important;
+}
+.dark-theme .input--group .input--message.success {
+  color: #78C52E !important;
+}
+.light-theme .input--group .input--message.error {
+  color: #FE2725 !important;
+}
+.dark-theme .input--group .input--message.error {
+  color: #FE2725 !important;
+}
+
 *, body {
   margin: 0;
   padding: 0;
@@ -921,6 +1338,29 @@
 .app .grid .inputs {
   grid-column: 1/13;
   grid-row: 20/30;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.app .grid .inputs .inputs--simples {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+.app .grid .inputs .inputs--toggle {
+  display: flex;
+  justify-content: space-between;
+}
+.app .grid .inputs .inputs--toggle .toggle--group {
+  width: 33%;
+}
+.app .grid .inputs .input--group {
+  width: 49%;
+}
+.app .grid .inputs .input--group .input--group {
+  width: 100%;
 }
 .app .grid .badges {
   grid-column: 1/5;

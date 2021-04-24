@@ -1,8 +1,9 @@
 @import './themes.scss';
 @import './typography';
 @import './colors';
-@import './buttom';
+@import './button';
 @import './link';
+@import './forms';
 
 *, body{
   margin: 0;
@@ -205,6 +206,35 @@
       @extend .section;
       grid-column: 1 / 13;
       grid-row: 20 / 30;
+
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      
+      .inputs--simples{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        padding-top: 12px;
+        padding-bottom: 24px;
+      }
+
+      .inputs--toggle{
+        display: flex;
+        justify-content: space-between;
+
+        .toggle--group{
+          width: 33%;
+        }
+      }
+
+      .input--group{
+        width: 49%;
+
+        .input--group{
+          width: 100%;
+        }
+      }
     }
 
     .badges {

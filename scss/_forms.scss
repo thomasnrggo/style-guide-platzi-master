@@ -1,0 +1,85 @@
+@import './themes';
+@import './colors';
+
+.input--group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+
+    .input {
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 1em;
+        outline: none !important;
+        @include themify($themes){
+            border: 2px solid themed('inputBorderColor');
+            background-color: themed('inputBackground');
+        }
+        &::placeholder{
+            @include themify($themes) {
+                color: themed('gray5');
+            }
+        }
+        &:focus {
+            @include themify($themes) {
+                border: 2px solid themed('primaryColor');
+            }
+        }
+        &:focus-visible {
+            @include themify($themes) {
+                border: 2px solid themed('primaryColor');
+            }
+        }
+
+        &.success{
+            @include themify($themes){
+                border-color: themed('success') !important;
+            }
+        }
+        &.error {
+            @include themify($themes){
+                border-color: themed('error') !important;
+            }
+        }
+        &.active{
+            @include themify($themes){
+                border-color: themed('primaryColor') !important;
+            }
+        }
+        &.disabled{
+            @include themify($themes){
+                background-color: themed('gray1') !important;
+            }
+        }
+    }
+
+    .select{
+        @extend .input;
+    }
+
+    .input--label{
+        font-size: 1.05em;
+        font-weight: $medium;
+        margin-bottom: 8px;
+    }
+
+    .input--message{
+        font-size: 1em;
+        margin-top: 4px;
+        @include themify($themes) {
+            font-weight: themed('textWeight');
+        }
+
+        &.success{
+            @include themify($themes){
+                color: themed('success') !important;
+            }
+        }
+    
+        &.error {
+            @include themify($themes){
+                color: themed('error') !important;
+            }
+        }
+    }
+}
