@@ -1,6 +1,7 @@
 @import './themes.scss';
 @import './typography';
 @import './colors';
+@import './buttom';
 
 *, body{
   margin: 0;
@@ -168,6 +169,15 @@
       @extend .section;
       grid-column: 5 / 10;
       grid-row: 13 / 20;
+
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-between;
+      padding: 24px;
+
+      .button--group{
+        width: 50%
+      }
     }
 
     .links {

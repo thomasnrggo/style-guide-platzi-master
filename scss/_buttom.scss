@@ -1,0 +1,131 @@
+@import './themes.scss';
+
+.button {
+    border: none;
+    border-radius: 6px;
+    padding: 18px;
+    min-width: 90%;
+    text-align: center;
+    transition: .4s ease;
+    cursor: pointer;
+    margin: 8px 0;
+
+    &.small{
+        padding: 8px 4px;
+        width: 60%;
+    }
+    &.medium{
+        padding: 12px 6px;
+        width: 70%;
+    }
+
+    &.hovered{
+        transform: scale(1.1);
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: lighten($color: themed('primaryColor'), $amount: 10%) !important;  
+        }
+    }
+
+    &.disabled{
+        cursor: no-drop;
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: lighten($color: themed('primaryColor'), $amount: 30%) !important;  
+        }
+        &:hover{
+            transform: none !important
+        }
+    }
+
+    &.active {
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: darken($color: themed('primaryColor'), $amount: 15%) !important;  
+        }
+        &:hover{
+            transform: none !important;
+            @include themify($themes) {
+                color: themed('gray1');
+                background-color: themed('primaryColor')!important;  
+            }
+        }
+    }
+
+    &-primary {
+        @extend .button;
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: themed('primaryColor');  
+        }
+
+        &:hover{
+            transform: scale(1.1);
+            @include themify($themes) {
+                color: themed('gray1');
+                background-color: lighten($color: themed('primaryColor'), $amount: 10%);  
+            }
+        }
+    }
+
+    &-secundary {
+        @extend .button;
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: themed('secundaryColor');  
+        }
+
+        &:hover{
+            transform: scale(1.1);
+            @include themify($themes) {
+                color: themed('gray1');
+                background-color: lighten($color: themed('secundaryColor'), $amount: 10%);  
+            }
+        }
+    }
+    &-accent1 {
+        @extend .button;
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: themed('accentColor1');  
+        }
+
+        &:hover{
+            transform: scale(1.1);
+            @include themify($themes) {
+                color: themed('gray1');
+                background-color: lighten($color: themed('accentColor1'), $amount: 10%);  
+            }
+        }
+    }
+    &-accent2 {
+        @extend .button;
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: themed('accentColor2');  
+        }
+
+        &:hover{
+            transform: scale(1.1);
+            @include themify($themes) {
+                color: themed('gray1');
+                background-color: lighten($color: themed('accentColor2'), $amount: 10%);  
+            }
+        }
+    }
+    &-accent3 {
+        @extend .button;
+        @include themify($themes) {
+            color: themed('gray1');
+            background-color: themed('accentColor3');  
+        }
+
+        &:hover{
+            transform: scale(1.1);
+            @include themify($themes) {
+                color: themed('gray1');
+                background-color: lighten($color: themed('accentColor3'), $amount: 10%);  
+            }
+        }
+    }
+}
