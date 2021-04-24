@@ -1,19 +1,199 @@
-$purple: #6E37BE;
-$red:#FE2725;
-$green:#78C52E;
-$blue:#0FACFB;
-$turquese:#129988;
+@import './themes.scss';
 
-$gray:#B9BDBF;
-$black: #212122;
-$white: #F2F2F2;
+.bg-gray{
+    &-1{
+        @include themify($themes) {
+            background-color: themed('gray1');  
+        }
+    }
+    &-2{
+        @include themify($themes) {
+            background-color: themed('gray2');  
+        }
+    }
+    &-3{
+        @include themify($themes) {
+            background-color: themed('gray3');  
+        }
+    }
+    &-4{
+        @include themify($themes) {
+            background-color: themed('gray4');  
+        }
+    }
+    &-5{
+        @include themify($themes) {
+            background-color: themed('gray5');  
+        }
+    }
+    &-6{
+        @include themify($themes) {
+            background-color: themed('gray6');  
+        }
+    }
+    &-7{
+        @include themify($themes) {
+            background-color: themed('gray7');  
+        }
+    }
+    &-8{
+        @include themify($themes) {
+            background-color: themed('gray8');  
+        }
+    }
+}
 
-$background-light: #F9F9F9;
-$background-dark: #2c2c2c;
+.bg-primary {
+    @include themify($themes) {
+        background-color: themed('primaryColor') !important;  
+    }
+    &-lightest {
+        @include themify($themes) {
+            background: lighten($color: themed('primaryColor'), $amount: 40%) !important;
+        }
+    }
+    &-lighter {
+        @include themify($themes) {
+            background: lighten($color: themed('primaryColor'), $amount: 30%) !important;
+        }
+    }
+    &-light {
+        @include themify($themes) {
+            background: lighten($color: themed('primaryColor'), $amount: 10%)!important;
+        }
+    }
+    &-dark {
+        @include themify($themes) {
+            background: darken($color: themed('primaryColor'), $amount: 5%) !important;
+        }
+    }
+    &-darker {
+        @include themify($themes) {
+            background: darken($color: themed('primaryColor'), $amount: 15%) !important;
+        }
+    }
+}
 
-// Theme colors
-$primary: $blue;
-$secundary: $purple;
-$accent1: $turquese;
-$accent2: $green;
-$accent3: $red;
+.bg-secundary {
+    @include themify($themes) {
+        background-color: themed('secundaryColor') !important;  
+    }
+    &-lightest {
+        @include themify($themes) {
+            background: lighten($color: themed('secundaryColor'), $amount: 40%) !important;
+        }
+    }
+    &-lighter {
+        @include themify($themes) {
+            background: lighten($color: themed('secundaryColor'), $amount: 30%) !important;
+        }
+    }
+    &-light {
+        @include themify($themes) {
+            background: lighten($color: themed('secundaryColor'), $amount: 10%)!important;
+        }
+    }
+    &-dark {
+        @include themify($themes) {
+            background: darken($color: themed('secundaryColor'), $amount: 5%) !important;
+        }
+    }
+    &-darker {
+        @include themify($themes) {
+            background: darken($color: themed('secundaryColor'), $amount: 15%) !important;
+        }
+    }
+}
+
+.bg-accent1 {
+    @include themify($themes) {
+        background-color: themed('accentColor1') !important;  
+    }
+    &-lightest {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor1'), $amount: 40%) !important;
+        }
+    }
+    &-lighter {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor1'), $amount: 30%) !important;
+        }
+    }
+    &-light {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor1'), $amount: 10%)!important;
+        }
+    }
+    &-dark {
+        @include themify($themes) {
+            background: darken($color: themed('accentColor1'), $amount: 5%) !important;
+        }
+    }
+    &-darker {
+        @include themify($themes) {
+            background: darken($color: themed('accentColor1'), $amount: 15%) !important;
+        }
+    }
+}
+
+.bg-accent2 {
+    @include themify($themes) {
+        background-color: themed('accentColor2') !important;  
+    }
+    &-lightest {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor2'), $amount: 40%) !important;
+        }
+    }
+    &-lighter {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor2'), $amount: 30%) !important;
+        }
+    }
+    &-light {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor2'), $amount: 10%)!important;
+        }
+    }
+    &-dark {
+        @include themify($themes) {
+            background: darken($color: themed('accentColor2'), $amount: 5%) !important;
+        }
+    }
+    &-darker {
+        @include themify($themes) {
+            background: darken($color: themed('accentColor2'), $amount: 15%) !important;
+        }
+    }
+}
+
+.bg-accent3 {
+    @include themify($themes) {
+        background-color: themed('accentColor3') !important;  
+    }
+    &-lightest {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor3'), $amount: 40%) !important;
+        }
+    }
+    &-lighter {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor3'), $amount: 30%) !important;
+        }
+    }
+    &-light {
+        @include themify($themes) {
+            background: lighten($color: themed('accentColor3'), $amount: 10%)!important;
+        }
+    }
+    &-dark {
+        @include themify($themes) {
+            background: darken($color: themed('accentColor3'), $amount: 5%) !important;
+        }
+    }
+    &-darker {
+        @include themify($themes) {
+            background: darken($color: themed('accentColor3'), $amount: 15%) !important;
+        }
+    }
+}

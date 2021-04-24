@@ -1,4 +1,239 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+.light-theme .bg-gray-1 {
+  background-color: #F2F2F2;
+}
+.dark-theme .bg-gray-1 {
+  background-color: #F2F2F2;
+}
+.light-theme .bg-gray-2 {
+  background-color: #E8E9E9;
+}
+.dark-theme .bg-gray-2 {
+  background-color: #E8E9E9;
+}
+.light-theme .bg-gray-3 {
+  background-color: #D1D3D4;
+}
+.dark-theme .bg-gray-3 {
+  background-color: #D1D3D4;
+}
+.light-theme .bg-gray-4 {
+  background-color: #B9BDBF;
+}
+.dark-theme .bg-gray-4 {
+  background-color: #B9BDBF;
+}
+.light-theme .bg-gray-5 {
+  background-color: #7F8488;
+}
+.dark-theme .bg-gray-5 {
+  background-color: #7F8488;
+}
+.light-theme .bg-gray-6 {
+  background-color: #656A6D;
+}
+.dark-theme .bg-gray-6 {
+  background-color: #656A6D;
+}
+.light-theme .bg-gray-7 {
+  background-color: #4C5052;
+}
+.dark-theme .bg-gray-7 {
+  background-color: #4C5052;
+}
+.light-theme .bg-gray-8 {
+  background-color: #212122;
+}
+.dark-theme .bg-gray-8 {
+  background-color: #212122;
+}
+
+.light-theme .bg-primary {
+  background-color: #0FACFB !important;
+}
+.dark-theme .bg-primary {
+  background-color: #6E37BE !important;
+}
+.light-theme .bg-primary-lightest {
+  background: #d8f1fe !important;
+}
+.dark-theme .bg-primary-lightest {
+  background: #ddd0f1 !important;
+}
+.light-theme .bg-primary-lighter {
+  background: #a5e0fe !important;
+}
+.dark-theme .bg-primary-lighter {
+  background: #c1a8e6 !important;
+}
+.light-theme .bg-primary-light {
+  background: #41bdfc !important;
+}
+.dark-theme .bg-primary-light {
+  background: #8959cf !important;
+}
+.light-theme .bg-primary-dark {
+  background: #049fed !important;
+}
+.dark-theme .bg-primary-dark {
+  background: #6331aa !important;
+}
+.light-theme .bg-primary-darker {
+  background: #037dba !important;
+}
+.dark-theme .bg-primary-darker {
+  background: #4c2683 !important;
+}
+
+.light-theme .bg-secundary {
+  background-color: #6E37BE !important;
+}
+.dark-theme .bg-secundary {
+  background-color: #0FACFB !important;
+}
+.light-theme .bg-secundary-lightest {
+  background: #ddd0f1 !important;
+}
+.dark-theme .bg-secundary-lightest {
+  background: #d8f1fe !important;
+}
+.light-theme .bg-secundary-lighter {
+  background: #c1a8e6 !important;
+}
+.dark-theme .bg-secundary-lighter {
+  background: #a5e0fe !important;
+}
+.light-theme .bg-secundary-light {
+  background: #8959cf !important;
+}
+.dark-theme .bg-secundary-light {
+  background: #41bdfc !important;
+}
+.light-theme .bg-secundary-dark {
+  background: #6331aa !important;
+}
+.dark-theme .bg-secundary-dark {
+  background: #049fed !important;
+}
+.light-theme .bg-secundary-darker {
+  background: #4c2683 !important;
+}
+.dark-theme .bg-secundary-darker {
+  background: #037dba !important;
+}
+
+.light-theme .bg-accent1 {
+  background-color: #129988 !important;
+}
+.dark-theme .bg-accent1 {
+  background-color: #129988 !important;
+}
+.light-theme .bg-accent1-lightest {
+  background: #86f1e3 !important;
+}
+.dark-theme .bg-accent1-lightest {
+  background: #86f1e3 !important;
+}
+.light-theme .bg-accent1-lighter {
+  background: #59ebd9 !important;
+}
+.dark-theme .bg-accent1-lighter {
+  background: #59ebd9 !important;
+}
+.light-theme .bg-accent1-light {
+  background: #17c7b1 !important;
+}
+.dark-theme .bg-accent1-light {
+  background: #17c7b1 !important;
+}
+.light-theme .bg-accent1-dark {
+  background: #0f8274 !important;
+}
+.dark-theme .bg-accent1-dark {
+  background: #0f8274 !important;
+}
+.light-theme .bg-accent1-darker {
+  background: #0a554b !important;
+}
+.dark-theme .bg-accent1-darker {
+  background: #0a554b !important;
+}
+
+.light-theme .bg-accent2 {
+  background-color: #78C52E !important;
+}
+.dark-theme .bg-accent2 {
+  background-color: #78C52E !important;
+}
+.light-theme .bg-accent2-lightest {
+  background: #dff3cc !important;
+}
+.dark-theme .bg-accent2-lightest {
+  background: #dff3cc !important;
+}
+.light-theme .bg-accent2-lighter {
+  background: #c5e9a3 !important;
+}
+.dark-theme .bg-accent2-lighter {
+  background: #c5e9a3 !important;
+}
+.light-theme .bg-accent2-light {
+  background: #92d650 !important;
+}
+.dark-theme .bg-accent2-light {
+  background: #92d650 !important;
+}
+.light-theme .bg-accent2-dark {
+  background: #6bb029 !important;
+}
+.dark-theme .bg-accent2-dark {
+  background: #6bb029 !important;
+}
+.light-theme .bg-accent2-darker {
+  background: #528720 !important;
+}
+.dark-theme .bg-accent2-darker {
+  background: #528720 !important;
+}
+
+.light-theme .bg-accent3 {
+  background-color: #FE2725 !important;
+}
+.dark-theme .bg-accent3 {
+  background-color: #FE2725 !important;
+}
+.light-theme .bg-accent3-lightest {
+  background: #fff0f0 !important;
+}
+.dark-theme .bg-accent3-lightest {
+  background: #fff0f0 !important;
+}
+.light-theme .bg-accent3-lighter {
+  background: #ffbebd !important;
+}
+.dark-theme .bg-accent3-lighter {
+  background: #ffbebd !important;
+}
+.light-theme .bg-accent3-light {
+  background: #fe5958 !important;
+}
+.dark-theme .bg-accent3-light {
+  background: #fe5958 !important;
+}
+.light-theme .bg-accent3-dark {
+  background: #fe0e0c !important;
+}
+.dark-theme .bg-accent3-dark {
+  background: #fe0e0c !important;
+}
+.light-theme .bg-accent3-darker {
+  background: #d60301 !important;
+}
+.dark-theme .bg-accent3-darker {
+  background: #d60301 !important;
+}
+
 *, body {
   margin: 0;
   padding: 0;
@@ -25,6 +260,32 @@
   max-width: 1080px;
   min-height: 100vh;
 }
+.app .grid .section, .app .grid .alerts, .app .grid .loaders, .app .grid .tooltips, .app .grid .badges, .app .grid .inputs, .app .grid .links, .app .grid .buttons, .app .grid .typography, .app .grid .colors {
+  position: relative;
+  padding-top: 24px;
+}
+.light-theme .app .grid .section, .light-theme .app .grid .alerts, .light-theme .app .grid .loaders, .light-theme .app .grid .tooltips, .light-theme .app .grid .badges, .light-theme .app .grid .inputs, .light-theme .app .grid .links, .light-theme .app .grid .buttons, .light-theme .app .grid .typography, .light-theme .app .grid .colors {
+  border: 1px solid #129988;
+}
+.dark-theme .app .grid .section, .dark-theme .app .grid .alerts, .dark-theme .app .grid .loaders, .dark-theme .app .grid .tooltips, .dark-theme .app .grid .badges, .dark-theme .app .grid .inputs, .dark-theme .app .grid .links, .dark-theme .app .grid .buttons, .dark-theme .app .grid .typography, .dark-theme .app .grid .colors {
+  border: 1px solid #78C52E;
+}
+.app .grid .section--title {
+  position: absolute;
+  left: 12px;
+  top: -24px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.light-theme .app .grid .section--title {
+  color: #2c2c2c;
+  background-color: #F9F9F9;
+}
+.dark-theme .app .grid .section--title {
+  color: #F9F9F9;
+  background-color: #2c2c2c;
+}
 .app .grid .swicthers {
   grid-column: 1/13;
   grid-row: 1/3;
@@ -42,79 +303,78 @@
 .app .grid .swicthers .btn:hover, .app .grid .swicthers .btn-toggle:hover {
   background: red;
 }
-.app .grid .section, .app .grid .alerts, .app .grid .loaders, .app .grid .tooltips, .app .grid .badges, .app .grid .inputs, .app .grid .links, .app .grid .buttons, .app .grid .typography, .app .grid .colors {
-  position: relative;
-  padding-top: 24px;
-}
-.app .grid .section--title {
-  position: absolute;
-  left: 12px;
-  top: -24px;
-  padding: 8px 12px;
-}
-.light-theme .app .grid .section--title {
-  color: #2c2c2c;
-  background-color: #F9F9F9;
-}
-.dark-theme .app .grid .section--title {
-  color: #F9F9F9;
-  background-color: #2c2c2c;
-}
 .app .grid .colors {
-  border: 1px solid lightyellow;
   grid-column: 1/5;
   grid-row: 3/20;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .app .grid .colors .color--group {
-  display: block;
-  min-height: 50px;
-  background: lightgoldenrodyellow;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 12px 24px;
+  min-height: 100px;
 }
-.app .grid .colors .color--group .color-base {
-  background: purple;
-  height: 25px;
+.app .grid .colors .color--group.neutrals {
+  display: flex;
+  flex-direction: column;
+}
+.app .grid .colors .color--group .color--base {
+  grid-column: 1/7;
+  grid-row: 1/3;
+  min-height: 55px;
   width: 100%;
 }
+.app .grid .colors .color--group .color--title {
+  margin-top: 8px;
+  font-weight: 500 !important;
+  grid-column: 1/7;
+}
+.light-theme .app .grid .colors .color--group .color--title {
+  color: #2c2c2c;
+}
+.dark-theme .app .grid .colors .color--group .color--title {
+  color: #F9F9F9;
+}
+.app .grid .colors .color--group .color--variants {
+  grid-column: 1/7;
+  grid-row: 3/4;
+  display: flex;
+}
+.app .grid .colors .color--group .color--variants .variant {
+  width: 100%;
+  min-height: 55px;
+}
 .app .grid .typography {
-  border: 1px solid red;
   grid-column: 5/13;
   grid-row: 3/13;
 }
 .app .grid .buttons {
-  border: 1px solid greenyellow;
   grid-column: 5/10;
   grid-row: 13/20;
 }
 .app .grid .links {
-  border: 1px solid blue;
   grid-column: 10/13;
   grid-row: 13/20;
 }
 .app .grid .inputs {
-  border: 1px solid orange;
   grid-column: 1/13;
   grid-row: 20/30;
 }
 .app .grid .badges {
-  border: 1px solid white;
   grid-column: 1/5;
   grid-row: 30/33;
 }
 .app .grid .tooltips {
-  border: 1px solid plum;
   grid-column: 5/7;
   grid-row: 30/36;
 }
 .app .grid .loaders {
-  border: 1px solid yellow;
   grid-column: 1/5;
   grid-row: 33/36;
 }
 .app .grid .alerts {
-  border: 1px solid lightcyan;
   grid-column: 7/13;
   grid-row: 30/36;
 }
