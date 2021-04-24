@@ -284,12 +284,18 @@
                                 checkbox button
                             </h3>
                             <div class="input--group">
-                                <input type="checkbox" class="checkbox">
-                                <label class="checkbox--label">checkbox</label>
+                                <label class="checkbox--container">
+                                    <input type="checkbox" class="checkbox">
+                                    <span class="checkmark"></span>
+                                    <label class="checkbox--label" for="">Checkbox</label>
+                                </label>
                             </div>
                             <div class="input--group">
-                                <input type="checkbox" class="checkbox">
-                                <label class="checkbox--label">Checked Box</label>
+                                <label class="checkbox--container">
+                                    <input type="checkbox" class="checkbox" checked>
+                                    <span class="checkmark"></span>
+                                    <label class="checkbox--label" for="">Checked box</label>
+                                </label>
                             </div>
                         </div>
                         <div class="toggle--group">
@@ -297,13 +303,27 @@
                                 Radio buttons
                             </h3>
                             <div class="input--group">
+                                <label class="radio--container">
+                                    <input type="radio" class="radio" name='radio'>
+                                    <span class="radio--Check"></span>
+                                    <label class="radio--label" for="">Radio button</label>
+                                </label>
+                            </div>
+                            <div class="input--group">
+                                <label class="radio--container">
+                                    <input type="radio" class="radio" name='radio' checked>
+                                    <span class="radio--Check"></span>
+                                    <label class="radio--label" for="">Selected Radio button</label>
+                                </label>
+                            </div>
+                            <!-- <div class="input--group">
                                 <input type="radio" class="radio">
                                 <label class="radio--label">radio button</label>
                             </div>
                             <div class="input--group">
                                 <input type="radio" class="radio">
                                 <label class="radio--label">Selected radio button</label>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
