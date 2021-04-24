@@ -1153,6 +1153,56 @@
 .dark-theme .input--group .input--message.error {
   color: #FE2725 !important;
 }
+.input--group .toggle--swicth {
+  display: flex;
+}
+.input--group .toggle--swicth input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.input--group .toggle--swicth label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 64px;
+  height: 34px;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+.light-theme .input--group .toggle--swicth label {
+  background: #B9BDBF;
+}
+.dark-theme .input--group .toggle--swicth label {
+  background: #B9BDBF;
+}
+.light-theme .input--group .toggle--swicth label.disabled {
+  background: #E8E9E9;
+}
+.dark-theme .input--group .toggle--swicth label.disabled {
+  background: #E8E9E9;
+}
+.input--group .toggle--swicth label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.4s;
+}
+.light-theme .input--group .toggle--swicth input:checked + label {
+  background: #0FACFB;
+}
+.dark-theme .input--group .toggle--swicth input:checked + label {
+  background: orange;
+}
+.input--group .toggle--swicth input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
 
 *, body {
   margin: 0;
