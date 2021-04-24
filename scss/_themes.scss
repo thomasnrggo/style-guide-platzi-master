@@ -1,60 +1,23 @@
-
-$bg: 'bg';
-$card-bg: 'card-bg';
-$card-border: 'card-border';
-$text: 'text';
-$text-important: 'text-important';
-$text-secondary: 'text-secondary';
-$text-badge: 'text-badge';
-$link: 'link';
-$hover: 'hover';
-$logo: 'logo';
-$logo2: 'logo-2';
-$brand-secondary: 'brand-blue';
-$brand-primary: 'brand-red';
-$border: 'border';
-
-// $themes: (
-//     light: (
-//             // logo: url("../images/brand/logo_vertical.svg"),
-//             bg: white,
-//             card-bg: whitesmoke,
-//             text: black,
-//             text-secondary: blue,
-//             link: lightblue,
-//             hover: blue,
-//             border: orange
-//     ),
-//     dark: (
-//             // logo: url("../images/brand/logo_vertical--invert.svg"),
-//             bg: black,
-//             card-bg: #222,
-//             text: white,
-//             text-secondary: orange,
-//             link: blue,
-//             hover: orange,
-//             border: orange
-//     ),
-// );
+@import './colors';
 
 $themes: (
     light: (
-        backgroundColor: #fff,
-        textColor: #408bbd,
-        buttonTextColor: #408bbd,
-        buttonTextTransform: none,
-        buttonTextHoverColor: #61b0e7,
-        buttonColor: #fff,
-        buttonBorder: 2px solid #fff,
+        background: $background-light,
+        textColor: $background-dark,
+        primaryColor: $primary,
+        secundaryColor: $secundary,
+        accentColor1: $accent1,
+        accentColor2: $accent2,
+        accentColor3: $accent3,
     ),
     dark: (
-        backgroundColor: #222,
-        textColor: #ddd,
-        buttonTextColor: #aaa,
-        buttonTextTransform: uppercase,
-        buttonTextHoverColor: #ddd,
-        buttonColor: #333,
-        buttonBorder: 1px solid #aaa,
+        background: $background-dark,
+        textColor: $background-light,
+        primaryColor: $primary,
+        secundaryColor: $secundary,
+        accentColor1: $accent1,
+        accentColor2: $accent2,
+        accentColor3: $accent3,
     ),
 );
 

@@ -7,15 +7,327 @@
     <title>Style Guide | NRGGO </title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <main id="app-root">
-        <button class='btn-toggle'>change mode</button>
-        <div class="app-container">
-            <h1 class="title">A title</h1>
-            <button class="button">A button</button>
+    <body>
+        <div class="app">
+            <div class="grid">
+                <div class="swicthers">
+                    <button class="btn-toggle">Dark mode</button>
+                    <button class="btn-toggle">light mode</button>
+                    <button class="btn-toggle">other mode</button>
+                    <button id='btn-toggle' class='btn-toggle'>change mode</button>
+                </div>
+
+                <div class="colors">
+                    <div class="title">Colors</div>
+                    <div class="color--group">
+                        <div class="color--base"></div>
+                        <div class="color--variants">
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                        </div>
+                    </div>
+                    <div class="color--group">
+                        <div class="color--base"></div>
+                        <div class="color--variants">
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                        </div>
+                    </div>
+                    <div class="color--group">
+                        <div class="color--base"></div>
+                        <div class="color--variants">
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                        </div>
+                    </div>
+                    <div class="color--group">
+                        <div class="color--base"></div>
+                        <div class="color--variants">
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                        </div>
+                    </div>
+                    <div class="color--group">
+                        <div class="color--base"></div>
+                        <div class="color--variants">
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                            <div class="variant"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="typography">
+                    <div class="title">Typography</div>
+                    <div class="typography--variants">
+                        <div class="weight">
+                            <div class="weight--example">
+                                Aa
+                            </div>
+                            <div class="weight--name">
+                                Poppins Bold
+                            </div>
+                        </div>
+                        <div class="weight">
+                            <div class="weight--example">
+                                Aa
+                            </div>
+                            <div class="weight--name">
+                                Poppins medium
+                            </div>
+                        </div>
+                        <div class="weight">
+                            <div class="weight--example">
+                                Aa
+                            </div>
+                            <div class="weight--name">
+                                Poppins Light
+                            </div>
+                        </div>
+                    </div>
+                    <div class="typographyUses">
+                        <div class="headlines">
+                            <h3 class="title subtitle">
+                                checkbox button
+                            </h3>
+                            <h1>h1 Headline</h1>
+                            <h2>h2 Headline</h2>
+                            <h3>h3 Headline</h3>
+                            <h4>h4 Headline</h4>
+                            <h5>h5 Headline</h5>
+                            <h6>h6 Headline</h6>
+                        </div>
+                        <div class="texts">
+                            <h3 class="title subtitle">
+                                checkbox button
+                            </h3>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem harum doloribus nemo libero officiis voluptas tempore mollitia consequatur, laudantium, enim sequi vel corporis esse itaque eum. Incidunt, id sequi!
+                            </p>
+                            <p class="text bold">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta temporibus provident, tempore similique sapiente officiis alias commodi consequuntur est vitae voluptatum eaque vel, blanditiis consectetur adipisci ea aperiam optio rerum.
+                            </p>
+                            <p class="text italic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis? Illo inventore, explicabo architecto nesciunt nisi dolorum beatae officiis, dicta exercitationem, repudiandae animi praesentium veniam iure! Facilis et delectus debitis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <div class="title">Buttons</div>
+                    <button>Default button</button>
+                    <button>Hovered button</button>
+                    <button>Active button</button>
+                    <button>Disabled button</button>
+                    <button>Secundary button</button>
+                    <button>Other button</button>
+                    <button>Other button</button>
+                    <button>Another button</button>
+                    <button>Medium button</button>
+                    <button>Small button</button>
+                </div>
+
+                <div class="links">
+                    <div class="title">links</div>
+                    <div class="link-group">
+                        <a href="">sample Link</a>
+                        <a href="">hovered Link</a>
+                    </div>
+                    <div class="link-group">
+                        <a href="">sample Link</a>
+                        <a href="">hovered Link</a>
+                    </div>
+                    <div class="link-group">
+                        <a href="">sample Link</a>
+                        <a href="">hovered Link</a>
+                    </div>
+                </div>
+
+                <div class="inputs">
+                    <div class="inputs--simples">
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                A normal input
+                            </label>
+                            <input type="text" class="input">
+                            <span class="input--message">
+                                A message here
+                            </span>
+                        </div>
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                A right input
+                            </label>
+                            <input type="text" class="input">
+                            <span class="input--message">
+                                Awesome job!
+                            </span>
+                        </div>
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                A left input
+                            </label>
+                            <input type="text" class="input">
+                            <span class="input--message">
+                                you shall not pass
+                            </span>
+                        </div>
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                A active input
+                            </label>
+                            <input type="text" class="input">
+                        </div>
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                A disabled input
+                            </label>
+                            <input type="text" class="input">
+                        </div>
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                A normal select
+                            </label>
+                            <select name="" id="" class="select">
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                        <div class="input--group">
+                            <label for="" class="input--label">
+                                textarea
+                            </label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="inputs--toggle">
+                        <div class="toggle--group">
+                            <h3 class="title subtitle">
+                                toggle button
+                            </h3>
+                            <div class="input--group">
+                                <input type="checkbox" class="toggle">
+                                <span class="toggle--slider"></span>
+                            </div>
+                            <div class="input--group">
+                                <input type="checkbox" class="toggle">
+                                <span class="toggle--slider"></span>
+                            </div>
+                            <div class="input--group">
+                                <input type="checkbox" class="toggle">
+                                <span class="toggle--slider"></span>
+                            </div>
+                        </div>
+                        <div class="toggle--group">
+                            <h3 class="title subtitle">
+                                checkbox button
+                            </h3>
+                            <div class="input--group">
+                                <input type="checkbox" class="checkbox">
+                                <label class="checkbox--label">checkbox</label>
+                            </div>
+                            <div class="input--group">
+                                <input type="checkbox" class="checkbox">
+                                <label class="checkbox--label">Checked Box</label>
+                            </div>
+                        </div>
+                        <div class="toggle--group">
+                            <h3 class="title subtitle">
+                                Radio buttons
+                            </h3>
+                            <div class="input--group">
+                                <input type="radio" class="radio">
+                                <label class="radio--label">radio button</label>
+                            </div>
+                            <div class="input--group">
+                                <input type="radio" class="radio">
+                                <label class="radio--label">Selected radio button</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="badges">
+                    <span class="badge">Recived</span>
+                    <span class="badge">peding</span>
+                    <span class="badge">peding</span>
+                    <span class="badge">approved</span>
+                    <span class="badge">rejected</span>
+                </div>
+
+                <div class="tooltips">
+                    <div class="tooltip">Show a helpfull tooltip here</div>
+                    <div class="tooltip">Light tooltip</div>
+                    <div class="tooltip">Show a helpfull tooltip here</div>
+                    <div class="tooltip">Dark tooltip</div>
+                    <div class="tooltip">Bottom tooltip</div>
+                </div>
+
+                <div class="loaders">
+                    <div class="loader">
+                        <div class="loader--animation"></div>
+                        <div class="loader--message">
+                            please wait...
+                        </div>
+                    </div>
+                    <div class="loader">
+                        <div class="loader--animation"></div>
+                        <div class="loader--message">
+                            loading...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alerts">
+                    <div class="alert">
+                        <div class="alert--message">
+                            A normal alert
+                        </div>
+                        <div class="alert--action">x</div>
+                    </div>
+                    <div class="alert">
+                        <div class="alert--message">
+                            A normal alert
+                        </div>
+                        <div class="alert--action">x</div>
+                    </div>
+                    <div class="alert">
+                        <div class="alert--message">
+                            A normal alert
+                        </div>
+                        <div class="alert--action">x</div>
+                    </div>
+                    <div class="alert">
+                        <div class="alert--message">
+                            A normal alert
+                        </div>
+                        <div class="alert--action">x</div>
+                    </div>
+                    <div class="alert">
+                        <div class="alert--message">
+                            A normal alert
+                        </div>
+                        <div class="alert--action">x</div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
-    
-    <script src="./index.js"></script>
-</body>
+        
+        <script src="./index.js"></script>
+    </body>
 </html>
