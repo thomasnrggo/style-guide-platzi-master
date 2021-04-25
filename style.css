@@ -428,6 +428,10 @@
   margin-bottom: 12px;
 }
 
+a.button, a.button-accent3, a.button-accent2, a.button-accent1, a.button-secundary, a.button-primary {
+  text-decoration: none;
+}
+
 .button, .button-accent3, .button-accent2, .button-accent1, .button-secundary, .button-primary {
   border: none;
   border-radius: 6px;
@@ -1831,7 +1835,6 @@
   margin: 0 auto;
   max-width: 1080px;
   min-height: 100vh;
-  overflow: hidden;
 }
 .app .grid .section, .app .grid .alerts, .app .grid .loaders, .app .grid .tooltips, .app .grid .badges, .app .grid .inputs, .app .grid .links, .app .grid .buttons, .app .grid .typography, .app .grid .colors {
   position: relative;
@@ -2114,6 +2117,14 @@
     grid-column: 1/13;
     grid-row: 73/78;
   }
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .d-none {

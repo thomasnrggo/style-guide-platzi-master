@@ -17,6 +17,8 @@
   @include themify($themes) { 
     font-family: themed('fontFamily');
   }
+
+  
 }
 
 .app {
@@ -35,7 +37,6 @@
     margin: 0 auto;
     max-width: 1080px;
     min-height: 100vh;
-    overflow: hidden;
 
     .section {
       position: relative;
@@ -335,6 +336,15 @@
       }
     }
   }
+}
+
+.demo{
+  display: flex;
+  justify-content:center;
+  padding-bottom: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+
 }
 
 .d-none{
