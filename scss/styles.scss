@@ -35,6 +35,7 @@
     margin: 0 auto;
     max-width: 1080px;
     min-height: 100vh;
+    overflow: hidden;
 
     .section {
       position: relative;
@@ -99,6 +100,11 @@
       flex-direction: column;
       // justify-content: space-between;
 
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 3 / 20;
+      }
+
       .color--group{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -144,10 +150,15 @@
       @extend .section;
       grid-column: 5 / 13;
       grid-row: 3 / 13;
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 20/ 33;
+      }
 
       .typography--variants{
         display: flex;
         justify-content: space-between;
+        
 
         .weight{
           padding: 24px;
@@ -165,9 +176,15 @@
 
       .typographyUses{
         display: flex;
+        @media screen and (max-width:414px) {
+          flex-direction: column;
+        }
         .headlines, .texts{
           width: 50%;
           padding: 24px ;
+          @media screen and (max-width:414px) {
+            width: 100%;
+          }
         }
       }
     }
@@ -184,6 +201,10 @@
 
       .button--group{
         width: 50%
+      }
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 33 / 38;
       }
     }
 
@@ -205,6 +226,10 @@
           padding-bottom: 8px;
         }
       }
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 38 / 42;
+      }
     }
 
     .inputs {
@@ -215,6 +240,10 @@
       display: flex;
       flex-direction: column;
       padding: 24px;
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 42 / 62;
+      }
       
       .inputs--simples{
         display: flex;
@@ -227,6 +256,9 @@
       .inputs--toggle{
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width:414px) {
+          flex-direction: column;
+        }
 
         .toggle--group{
           width: 33%;
@@ -235,6 +267,9 @@
 
       .input--group{
         width: 49%;
+        @media screen and (max-width:414px) {
+          width: 100%;
+        }
 
         .input--group{
           width: 100%;
@@ -249,6 +284,10 @@
       display: flex;
       flex-flow: wrap;
       padding: 24px;
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 62 / 65;
+      }
     }
 
     .tooltips {
@@ -261,6 +300,10 @@
       padding: 24px;
 
       text-align: center;
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 65 / 70;
+      }
 
     }
 
@@ -272,6 +315,10 @@
       display: flex;
       flex-direction: column;
       padding: 24px;
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 70 / 73;
+      }
     }
 
     .alerts {
@@ -282,6 +329,10 @@
       flex-direction: column;
       padding: 24px;
       align-items:stretch;
+      @media screen and (max-width:414px) {
+        grid-column: 1 / 13;
+        grid-row: 73 / 78;
+      }
     }
   }
 }
