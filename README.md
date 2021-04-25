@@ -13,4 +13,4 @@
 - Switch between light and dark mode.
 
 
-[Demo](https://https://www.thomasnrggo.com/)
+[Demo](https://www.thomasnrggo.com/)
