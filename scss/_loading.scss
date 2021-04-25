@@ -1,0 +1,64 @@
+@import './themes';
+
+.loader{
+    text-align: center;
+    font-weight: $medium;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+
+    .progress {
+        padding: 6px;
+        border-radius: 25px;
+        @include themify($themes){
+            background: themed('gray2');
+        }
+    
+        .progress--bar {	
+            height: 16px; 
+            border-radius: 25px; 
+            transition: 0.4s linear;  
+            transition-property: width, background-color;
+            width: 100%;
+            animation: progressAnimation 6s infinite;
+            @include themify($themes){
+                background: themed('primaryColor');
+            }  
+        }
+    }
+    
+    .loader--message{
+        margin-top: 4px;
+        @include themify($themes){
+            color: themed('primaryColor');
+        }  
+    }
+
+    .loader--sideToSide{
+        position: relative;
+        min-height: 28px;
+        width: 40%;
+        margin: 0 auto;
+
+        .loading{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            animation: rigthToLeft 1.2s infinite;
+            @include themify($themes){
+                background: themed('primaryColor');
+            }  
+        }
+    }
+}
+
+
+@keyframes progressAnimation {
+    from { width: 0 }
+    to   { width: 100% }
+}
+
+@keyframes rigthToLeft {
+    0% { left: 0;}
+    50%{ left : 80%;}
+    100%{ left: 0;}
+}

@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 .bold {
   font-weight: 700 !important;
 }
@@ -1642,6 +1643,129 @@
   height: auto;
 }
 
+.bold {
+  font-weight: 700 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title, .title-h1, .title-h2, .title-h3, .title-h4 {
+  font-weight: 700;
+}
+.title-h1 {
+  font-size: 3em;
+}
+.title-h2 {
+  font-size: 2.8em;
+}
+.title-h3 {
+  font-size: 2.4em;
+}
+.title-h4 {
+  font-size: 2.2em;
+}
+.title-h5 {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+.title-h6 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.text {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.loader {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.loader .progress {
+  padding: 6px;
+  border-radius: 25px;
+}
+.light-theme .loader .progress {
+  background: #E8E9E9;
+}
+.dark-theme .loader .progress {
+  background: #E8E9E9;
+}
+.loader .progress .progress--bar {
+  height: 16px;
+  border-radius: 25px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  width: 100%;
+  animation: progressAnimation 6s infinite;
+}
+.light-theme .loader .progress .progress--bar {
+  background: #0FACFB;
+}
+.dark-theme .loader .progress .progress--bar {
+  background: orange;
+}
+.loader .loader--message {
+  margin-top: 4px;
+}
+.light-theme .loader .loader--message {
+  color: #0FACFB;
+}
+.dark-theme .loader .loader--message {
+  color: orange;
+}
+.loader .loader--sideToSide {
+  position: relative;
+  min-height: 28px;
+  width: 40%;
+  margin: 0 auto;
+}
+.loader .loader--sideToSide .loading {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  animation: rigthToLeft 1.2s infinite;
+}
+.light-theme .loader .loader--sideToSide .loading {
+  background: #0FACFB;
+}
+.dark-theme .loader .loader--sideToSide .loading {
+  background: orange;
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes rigthToLeft {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 80%;
+  }
+  100% {
+    left: 0;
+  }
+}
 *, body {
   margin: 0;
   padding: 0;
@@ -1868,6 +1992,9 @@
 .app .grid .loaders {
   grid-column: 1/5;
   grid-row: 33/36;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
 }
 .app .grid .alerts {
   grid-column: 7/13;
