@@ -2251,6 +2251,12 @@ a.button, a.button-accent3, a.button-accent2, a.button-accent1, a.button-secunda
   padding-top: 24px;
   gap: 12px;
 }
+@media screen and (max-width: 414px) {
+  .demo {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
 .demo .header {
   grid-column: 1/13;
   grid-row: 1/2;
@@ -2269,9 +2275,18 @@ a.button, a.button-accent3, a.button-accent2, a.button-accent1, a.button-secunda
 .dark-theme .demo .header a:hover {
   color: orange;
 }
+.demo .header .title-h1 {
+  font-size: 2em;
+}
 .demo .cards {
   grid-column: 1/5;
   grid-row: 2/6;
+}
+@media screen and (max-width: 414px) {
+  .demo .cards {
+    grid-column: 1/13;
+    grid-row: 2/12;
+  }
 }
 .demo .card {
   margin-bottom: 24px;
@@ -2308,6 +2323,12 @@ a.button, a.button-accent3, a.button-accent2, a.button-accent1, a.button-secunda
   grid-column: 5/13;
   grid-row: 2/6;
 }
+@media screen and (max-width: 414px) {
+  .demo .list {
+    grid-column: 1/13;
+    grid-row: 12/20;
+  }
+}
 .demo .list .list--container {
   display: flex;
   flex-direction: column;
@@ -2334,11 +2355,21 @@ a.button, a.button-accent3, a.button-accent2, a.button-accent1, a.button-secunda
 .demo .list .list--container .list--item .list--image .image {
   height: 100% !important;
 }
+@media screen and (max-width: 414px) {
+  .demo .list .list--container .list--item .list--image {
+    display: none;
+  }
+}
 .demo .list .list--container .list--item .list--body {
   width: 80%;
   padding: 12px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 414px) {
+  .demo .list .list--container .list--item .list--body {
+    width: 100%;
+  }
 }
 .demo .list .list--container .list--item .list--body h2 {
   cursor: pointer;
