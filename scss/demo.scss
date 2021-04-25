@@ -1,0 +1,119 @@
+@import './themes';
+
+.demo {
+    @extend .grid;
+    grid-auto-rows:min-content;
+    padding-top: 24px;
+    gap: 12px;
+
+    .header{
+        grid-column: 1 / 13;
+        grid-row: 1 / 2;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            color: inherit;
+            text-decoration: none;
+            transition: ease .4s;
+            &:hover{
+                @include themify($themes){
+                    color: themed('primaryColor')
+                }
+            }
+        }
+    }
+    .cards{
+        grid-column: 1 / 5;
+        grid-row: 2 / 6;
+    }
+
+    .card{
+        margin-bottom: 24px;
+        border-radius: 8px;
+        overflow: hidden;
+        height: min-content;
+        cursor: pointer;
+        @include themify($themes){
+            background: themed('cardBackground');
+        }
+        .card--body{
+            transition: .6s ease;
+            transition-property: opacity, height;
+            opacity: 0;
+            height: 0;
+        }
+        .card--body, .card--header{
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+        }
+        .card--header{
+            padding-bottom: 0;
+        }
+        &:hover .card--body{
+            opacity: 1;
+            height: auto;
+        }
+    }
+
+    .list{
+        grid-column: 5 / 13;
+        grid-row: 2 / 6;
+
+        .list--container{
+            display: flex;
+            flex-direction: column;
+            
+            
+
+            span{
+                transition: .6s ease;
+                opacity: 0;
+            }
+
+            .list--item{
+                overflow: hidden;
+                border-radius: 8px;
+                margin-bottom: 24px;
+                @include themify($themes){
+                    background: themed('cardBackground');
+                }
+
+                display: flex;
+                .list--image{
+                    width: 20%;
+                    .image{
+                        height: 100% !important;
+                    }
+                }
+                .list--body{
+                    width: 80%;
+                    padding: 12px;
+                    display: flex;
+                    flex-direction: column;
+
+                    h2{
+                        cursor: pointer;
+                    }
+
+                    .list--header{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+            &:hover span{
+                opacity: 1;
+            }
+        }
+
+        
+
+
+        
+    }
+}

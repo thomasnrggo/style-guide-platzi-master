@@ -8,6 +8,7 @@
 @import './alert';
 @import './tooltip';
 @import './loading';
+@import './animations';
 
 
 *, body{
@@ -37,6 +38,9 @@
     margin: 0 auto;
     max-width: 1080px;
     min-height: 100vh;
+    @media screen and (max-width:414px) {
+      overflow: hidden;
+    }
 
     .section {
       position: relative;
@@ -338,15 +342,13 @@
   }
 }
 
-.demo{
+.demoButton--container{
   display: flex;
   justify-content:center;
   padding-bottom: 24px;
   max-width: 1080px;
   margin: 0 auto;
-
 }
 
-.d-none{
-  display: none !important;
-}
+@import './utils';
+@import './demo.scss';

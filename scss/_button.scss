@@ -23,6 +23,10 @@ a.button{
         width: 70%;
     }
 
+    &.full{
+        width: 100%;
+    }
+
     &.hovered{
         transform: scale(1.05);
         @include themify($themes) {

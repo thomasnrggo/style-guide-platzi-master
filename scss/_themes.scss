@@ -26,6 +26,7 @@ $themes: (
         inputBorderColor: #B9BDBF,
         success: $accent2,
         error: $accent3,
+        cardBackground: $white,
     ),
     dark: (
         background: $background-dark,
@@ -51,6 +52,7 @@ $themes: (
         inputBorderColor: #4C5052,
         success: $accent2,
         error: $accent3,
+        cardBackground: $black,
     ),
 );
 
