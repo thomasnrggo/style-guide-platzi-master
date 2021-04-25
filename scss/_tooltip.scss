@@ -14,8 +14,8 @@
 
     .tooltip--mesage{
         opacity: 0;
-        width: 0;
-        height: 0;
+        width: auto;
+        height: auto;
         font-size: .9em;
         border-radius: 6px;
         padding: 8px;
@@ -52,9 +52,39 @@
             text-decoration-style: solid;
         }
     }
-    .tooltip--trigger:hover + .tooltip--mesage{
-        opacity: 1;
-        width: auto;
-        height: auto;
+    
+    &.down {
+        .tooltip--trigger:hover + .tooltip--mesage{
+            animation: fadeInUp .4s forwards;
+        }
+    }
+    &.up{
+        .tooltip--trigger:hover + .tooltip--mesage{
+            animation: fadeInUp .4s forwards;
+        }
     }
 }
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }

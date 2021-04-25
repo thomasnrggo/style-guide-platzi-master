@@ -20,7 +20,7 @@
     }
 
     &.hovered{
-        transform: scale(1.1);
+        transform: scale(1.05);
         @include themify($themes) {
             color: themed('gray1');
             background-color: lighten($color: themed('primaryColor'), $amount: 10%) !important;  
@@ -60,7 +60,7 @@
         }
 
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.05);
             @include themify($themes) {
                 color: themed('gray1');
                 background-color: lighten($color: themed('primaryColor'), $amount: 10%);  
@@ -76,7 +76,7 @@
         }
 
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.05);
             @include themify($themes) {
                 color: themed('gray1');
                 background-color: lighten($color: themed('secundaryColor'), $amount: 10%);  
@@ -91,7 +91,7 @@
         }
 
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.05);
             @include themify($themes) {
                 color: themed('gray1');
                 background-color: lighten($color: themed('accentColor1'), $amount: 10%);  
@@ -106,7 +106,7 @@
         }
 
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.05);
             @include themify($themes) {
                 color: themed('gray1');
                 background-color: lighten($color: themed('accentColor2'), $amount: 10%);  
@@ -121,7 +121,7 @@
         }
 
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.05);
             @include themify($themes) {
                 color: themed('gray1');
                 background-color: lighten($color: themed('accentColor3'), $amount: 10%);  

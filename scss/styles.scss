@@ -281,6 +281,11 @@
       display: flex;
       flex-direction: column;
       padding: 24px;
+      align-items:stretch;
     }
   }
+}
+
+.d-none{
+  display: none !important;
 }
