@@ -1,6 +1,3 @@
-# style-guide-platzi-master
-Style guide made with HTML CSS(sass) and JavaScript, It was made with Css grid and Flexbox, It have two themes, Light and dark mode. 
-
 <h1 align="center">
   style guide
   <br>
