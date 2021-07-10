@@ -13,4 +13,4 @@
 - Switch between light and dark mode.
 
 
-[Demo](https://www.thomasnrggo.com/)
+[Demo](https://style-guide-platzi-master.vercel.app/)
